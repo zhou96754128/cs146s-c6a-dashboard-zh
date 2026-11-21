@@ -1,0 +1,1717 @@
+{
+  "records": [
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "?",
+      "challenge_id": "ch-20260904104535-14aac163",
+      "challenge_title": "T0 发布流程测试（请忽略）",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 1,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C1",
+      "challenge_id": "ch-20260717031336-pxzwy0",
+      "challenge_title": "C1 课程资料获取与翻译",
+      "submitted_at": "2026-09-16T01:39:15.357Z",
+      "submission_id": "sub-20260916013915-dac2bdfd",
+      "status": "unknown",
+      "task_state": "pending_teacher_review",
+      "score": 92,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20260916014121-941b33b4",
+      "feedback": "这是一份质量很高的C1提交：覆盖度、术语表、质检报告、管线脚本、AI日志与七维AAR均齐备且可核对，管线自动化与复盘深度尤为突出，AI使用有清晰的多轮迭代与prompt优化证据。主要扣分点在于译文仍有机翻痕迹、未做人工逐句校对，以及发布环节受环境阻塞未完全跑通。整体达到优秀水平，建议在润色与发布复现上继续完善。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-vibe-coding-zh",
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C2",
+      "challenge_id": "ch-20260717031343-8ot0ji",
+      "challenge_title": "C2 AI for Math 论文",
+      "submitted_at": "2026-09-24T06:05:07.486Z",
+      "submission_id": "sub-20260924060507-70b3d083",
+      "status": "unknown",
+      "task_state": "pending_teacher_review",
+      "score": 89,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20260924060700-c3b11a5d",
+      "feedback": "这是一份完成度与诚实度都很高的 C2 论文交付。研究严谨性接近满分：引用闭环零错配、结论边界如实声明、失败模式四分法与验证梯度设计清晰，且主动把核验从「事后自查」升级为编译前硬门禁并做负向验证，体现了对「AI 结论可信度」的独立判断框架。技术实现与产物完整性表现优秀，四类交付物齐全、可独立编译复跑。主要失分点在 AI 使用质量：关键 prompt 原文未落盘，日志为事后重构，原始对话链存在缺口，可追溯性不足；此外实测仍局限于可机械判定环节，CDR 无实测值、样本自造规模小、缺独立标注者与敏感性分析。若能在后续轮次补齐原始 AI 留痕并把实测扩展到需模型判断的环节，本工作有望达到更高水准。综合评分 89/100。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-ai4math-paper-zh",
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C2A",
+      "challenge_id": "ch-20260717031352-tlg70p",
+      "challenge_title": "C2A / C9：衡量 AGI 的认知能力",
+      "submitted_at": "2026-10-05T06:48:14.496Z",
+      "submission_id": "sub-20261005064814-c9c956a5",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 90,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261005065026-64f7482f",
+      "feedback": "这是一份完成度与设计质量都相当高的提交。基准设计抓住了预测性元认知的核心（时序分离+连续置信度），混淆隔离与抗污染思路清晰，指标定义完整且边界条件明确，负向验证内置，可运行性与可复现性强（零依赖、固定种子、selfcheck 24/24）。研究严谨性体现在来源分级、事实与假设分离、不硬凑引用。AI 使用质量与复盘质量尤为突出：以退出码等硬证据替代 AI 自我报告、记录假绿灯被戳破的真实教训、AAR 七维结构且 ΔR 归因落到机制。主要不足是两端实测标定缺失（难度与人类基线均为未验证假设），以及 MCE 与 AUROC 相关性未分析、AI/人工边界未逐句标注。若补齐真实模型跑批与人类小样本，本工作可成为一份扎实的竞赛级基准提案。综合评分 90/100。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c2a-metacognition-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 65,
+      "files": [
+        {
+          "pattern": "*proposal*",
+          "label": "proposal",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2A_proposal_打印版.html"
+        },
+        {
+          "pattern": "*benchmark*",
+          "label": "benchmark",
+          "required": true,
+          "present": true,
+          "matched_file": "研究_已有benchmark证据表.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2A_AI日志.md"
+        },
+        {
+          "pattern": "*AAR*",
+          "label": "AAR",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2A_AAR.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C2A_benchmark/",
+          "kind": "dir"
+        },
+        {
+          "name": "starter/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031352-tlg70p_材料/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031352-tlg70p_正文/",
+          "kind": "dir"
+        },
+        {
+          "name": ".gitignore",
+          "kind": "file"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_predictions提交模板.jsonl",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_proposal.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_proposal_打印版.html",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2A_项目自评.md",
+          "kind": "file"
+        },
+        {
+          "name": "研究_官方材料笔记.md",
+          "kind": "file"
+        },
+        {
+          "name": "研究_已有benchmark证据表.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C2G",
+      "challenge_id": "ch-20260717031359-b8wyg0",
+      "challenge_title": "C2G 参数高尔夫 —— 极限约束下的语言模型训练",
+      "submitted_at": "2026-10-05T12:59:44.185Z",
+      "submission_id": "sub-20261005125944-331990e1",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 76,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261005130150-98aa52e1",
+      "feedback": "这是一份诚实、扎实、工程完成度高的方案层交付。方法学与复盘质量突出：单点押注 Muon、证据分级核验、零依赖可复现校验套件（8/8 PASS、含负向用例）、AI 失误如实记录、AAR 含 5 个真实卡点与 ΔR 归因，均达到较高水准。主要短板在成绩达成：受限于无 8×H100，未产出 FineWeb 榜单口径的真实 BPB 成绩，仅有本机缩比方向性对照，无法主张任何 Level 门槛达成。综合来看，方案与工程验证部分优秀，成绩部分诚实为空，总分 76 分，符合「材料齐、成绩缺」的定位。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c2g-parameter-golf-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 48,
+      "files": [
+        {
+          "pattern": "*方案草案*",
+          "label": "方案草案",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2G_方案草案.md"
+        },
+        {
+          "pattern": "*方案设计*",
+          "label": "方案设计",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2G_方案设计.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2G_AI日志.md"
+        },
+        {
+          "pattern": "*AAR*",
+          "label": "AAR",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C2G_AAR.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C2G_logs/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C2G_本地校验/",
+          "kind": "dir"
+        },
+        {
+          "name": "_placeholder/",
+          "kind": "dir"
+        },
+        {
+          "name": "_submission_members/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031359-b8wyg0_正文/",
+          "kind": "dir"
+        },
+        {
+          "name": ".gitignore",
+          "kind": "file"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_AI佐证.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_B路线_算力申请与实跑手册.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_OpenAI_积分申请_issue草稿.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_ablation.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_leaderboard.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_submission.json",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_submission.py",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_submission.tar.gz",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_train_gpt.py",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_单点改进RFC.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_实测记录.json",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_实测记录.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_提分路线评估.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_方案草案.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_方案设计.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_算力券申请_可直接发出.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_组合优化RFC.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C2G_项目自评.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C3",
+      "challenge_id": "ch-20260717031407-ez6fae",
+      "challenge_title": "C3 群内高质量参与",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 3,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C3C",
+      "challenge_id": "ch-20260717031415-0vi5d1",
+      "challenge_title": "C3C 双人协作与技能迁移",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C4",
+      "challenge_id": "ch-20260717031424-4cdgor",
+      "challenge_title": "C4 技能分享与传播",
+      "submitted_at": "2026-10-05T14:24:26.675Z",
+      "submission_id": "sub-20261005142426-4ce20985",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 91,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261005142615-d2de1e8f",
+      "feedback": "这是一份质量很高的提交：技能真实可跑、零依赖、有正负向自检套件，教学文档与 AAR 都体现出真实踩坑与深度反思，AI 协作有明确的采纳/修改/驳回判定与失败记录，可追溯性强。核心洞察「清单是入口、rubric 才是标准」并已固化为工具检查项，认知增量真实。唯一显著短板是 C4 最高权重的「被使用次数」仍为 0，传播机制目前只交付了判定口径而非实际使用证据；若后续能落地真实使用登记，本项目价值将进一步提升。综合评定 91 分。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c4-submit-preflight-zh",
+      "required_total": 5,
+      "required_present": 5,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 20,
+      "files": [
+        {
+          "pattern": "*skill说明*",
+          "label": "skill说明",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4_skill说明.md"
+        },
+        {
+          "pattern": "*.skill",
+          "label": ".skill",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4_submit-preflight.skill"
+        },
+        {
+          "pattern": "*教学说明*",
+          "label": "教学说明",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4_教学说明.md"
+        },
+        {
+          "pattern": "*demo*",
+          "label": "demo",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4_demo.png"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C4_技能源码/",
+          "kind": "dir"
+        },
+        {
+          "name": "logs/",
+          "kind": "dir"
+        },
+        {
+          "name": ".gitignore",
+          "kind": "file"
+        },
+        {
+          "name": ".preflight-ignore",
+          "kind": "file"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_demo.png",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_demo.svg",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_demo运行记录.txt",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_skill说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_submit-preflight.skill",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_教学说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4_项目自评.md",
+          "kind": "file"
+        },
+        {
+          "name": "confirm-config.json",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C4A",
+      "challenge_id": "ch-20260717031432-5jvqje",
+      "challenge_title": "C4A 技能提交自动评审",
+      "submitted_at": "2026-10-07T08:21:32.706Z",
+      "submission_id": "sub-20261007082132-9dbdce65",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 92,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261007082344-67cd24ff",
+      "feedback": "这是一份高质量的 C4A 提交。评审器本身做到了口径冻结、证据绑定、确定性复跑与负例自检，工程规范、零依赖、退出码可做门禁，真实样本复跑还暴露并修复了范围污染这一实际缺陷，体现了「要求证据」的工程习惯。六件必交物齐全，AI 协作有明确的采纳/修改/驳回记录，AAR 反思具体且含失败经验与改进项。主要扣分点在于完整性只数件数、入口脚本未真跑、样本规模偏小与 AI 对话存档不完整，这些均已被作者诚实记录为下一版改进项。综合评定 92/100。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c4a-skill-evaluator-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 77,
+      "files": [
+        {
+          "pattern": "*方案设计*",
+          "label": "方案设计",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4A_方案设计.md"
+        },
+        {
+          "pattern": "*skill-evaluator*",
+          "label": "skill-evaluator",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4A_skill-evaluator.skill"
+        },
+        {
+          "pattern": "*评审报告*",
+          "label": "评审报告",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4A_评审报告.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4A_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C4A_repo/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C4A_skill-evaluator/",
+          "kind": "dir"
+        },
+        {
+          "name": "_corpus/",
+          "kind": "dir"
+        },
+        {
+          "name": "_ref/",
+          "kind": "dir"
+        },
+        {
+          "name": "_scratch/",
+          "kind": "dir"
+        },
+        {
+          "name": "logs/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031432-5jvqje_完整资料/",
+          "kind": "dir"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_demo运行记录.txt",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_skill-evaluator.skill",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_教学说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_方案设计.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_评审报告.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_评审详表.xlsx",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4A_项目自评.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C4B",
+      "challenge_id": "ch-20260717031440-bp05rs",
+      "challenge_title": "C4B 公众号文章生成技能",
+      "submitted_at": "2026-10-05T16:50:09.306Z",
+      "submission_id": "sub-20261005165009-1e9032ee",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 84,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261005165206-c8db3773",
+      "feedback": "这是一份完成度与工程严谨度都很高的提交：技能零依赖、可自检、可复现，9 条用例（含 8 条负例）锁死真实翻车场景，包与盘 sha256 一致，AI 协作有明确的采纳/修改/驳回判定与失败留痕，AAR 深入且把「标签必须与字节一致」的洞察固化成了工具检查，体现了很强的验证意识。主要失分集中在传播设计——文章虽已真实发布且公开可访问，但缺少阅读/互动数据与读者反馈，尚未形成传播闭环；此外跨平台验证与 prompt 全量归档仍有提升空间。综合初评 84 分，若补齐传播数据与反馈收集，分数还有明显上升空间。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c4b-wechat-publisher-zh",
+      "required_total": 3,
+      "required_present": 3,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 31,
+      "files": [
+        {
+          "pattern": "*wechat-publisher*",
+          "label": "wechat-publisher",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4B_wechat-publisher.skill"
+        },
+        {
+          "pattern": "*文章链接*",
+          "label": "文章链接",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4B_文章链接.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4B_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C4B_技能源码/",
+          "kind": "dir"
+        },
+        {
+          "name": "logs/",
+          "kind": "dir"
+        },
+        {
+          "name": ".gitignore",
+          "kind": "file"
+        },
+        {
+          "name": ".preflight-ignore",
+          "kind": "file"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_demo运行记录.txt",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_output.html",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_wechat-publisher.skill",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_技能说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_教学说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_文章_报告.json",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_文章源文件.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_文章链接.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4B_项目自评.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C4C",
+      "challenge_id": "ch-20260717031447-k82c4m",
+      "challenge_title": "C4C 作业自动求解与排版",
+      "submitted_at": "2026-10-08T08:42:32.166Z",
+      "submission_id": "sub-20261008084232-4a7efd77",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 95,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261008084429-74c9ee60",
+      "feedback": "这是一份完成度很高的 C4C 交付：七阶段流水线端到端跑通，确定性求解 + 独立核验的设计把「模型讲解」与「下结论」清晰分离，域内 11/11 全对且可复现，域外诚实留空不编造，交付物齐全、AI 使用可追溯、AAR 复盘有真实翻车点与改进方案，整体质量优秀。主要提升空间在于模板覆盖面与样本规模，以及语义歧义的显式处理。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c4c-homework-solver-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 193,
+      "files": [
+        {
+          "pattern": "*方案设计*",
+          "label": "方案设计",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4C_方案设计.md"
+        },
+        {
+          "pattern": "*homework-solver*",
+          "label": "homework-solver",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4C_homework-solver.skill"
+        },
+        {
+          "pattern": "*output*",
+          "label": "output",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4C_output.pdf"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4C_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C4C_homework-solver/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C4C_repo/",
+          "kind": "dir"
+        },
+        {
+          "name": "_smoke/",
+          "kind": "dir"
+        },
+        {
+          "name": "output/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031447-k82c4m_完整资料/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C4C_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_homework-solver.skill",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_output.pdf",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_作业原件.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_教学说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_方案设计.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_项目自评.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C4C_验证报告.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C4D",
+      "challenge_id": "ch-20260717031455-uzqs9k",
+      "challenge_title": "C4D 本地大模型 Agent 技能",
+      "submitted_at": "2026-11-01T08:59:45.465Z",
+      "submission_id": "sub-20261101085945-16be24f2",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 94,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261101090142-d1d6e5be",
+      "feedback": "这是一份完成度很高的 C4D 交付：本地大模型真实驱动 Agent 函数调用，坐标与渲染的职责边界划分清晰，验证不依赖自我报告而是用双探针量产物，AAR 有真实失败经验与可执行改进方案，AI 协作边界（人划红线、AI 算证据）总结到位。主要失分在于挑战明示的加分项未做、性能结论样本量偏小。整体属于优秀档，建议补齐横向对比与多次运行稳定性后可作为范例。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c4d-map-agent-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 144,
+      "files": [
+        {
+          "pattern": "*Agent技能*",
+          "label": "Agent技能",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4D_Agent技能.skill"
+        },
+        {
+          "pattern": "*demo*",
+          "label": "demo",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4D_demo运行记录.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C4D_AI日志.md"
+        },
+        {
+          "pattern": "*AAR*",
+          "label": "AAR",
+          "required": true,
+          "present": true,
+          "matched_file": "_gitcommit_aar_c4d.sh"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C4D_map-agent/",
+          "kind": "dir"
+        },
+        {
+          "name": "_vidprobe/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031455-uzqs9k_完整资料/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C4D_录屏要点清单.md",
+          "kind": "file"
+        },
+        {
+          "name": "_AAR定稿待确认.md",
+          "kind": "file"
+        },
+        {
+          "name": "_fixturn.py",
+          "kind": "file"
+        },
+        {
+          "name": "_gitcommit_aar_c4d.sh",
+          "kind": "file"
+        },
+        {
+          "name": "_gitcommit_c4d.sh",
+          "kind": "file"
+        },
+        {
+          "name": "_gitpush_c4d.sh",
+          "kind": "file"
+        },
+        {
+          "name": "_scan_stale.py",
+          "kind": "file"
+        },
+        {
+          "name": "_scan_stale2.py",
+          "kind": "file"
+        },
+        {
+          "name": "_vidverify.py",
+          "kind": "file"
+        },
+        {
+          "name": "_录屏步骤与验收点.md",
+          "kind": "file"
+        },
+        {
+          "name": "_录屏转换与校验.py",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C5",
+      "challenge_id": "ch-20260717031503-ihozqu",
+      "challenge_title": "C5 GitHub Repository",
+      "submitted_at": "2026-11-21T09:23:27.786Z",
+      "submission_id": "sub-20261121092327-7d629499",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 89,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261121092535-ecb10b8a",
+      "feedback": "这是一份完成度很高的交付：czlint 1.0.0 是一个真实可用、可 clone 自证的工具，仓库文档专业、社区要素齐全、测试与证据日志扎实，AAR 复盘深入且诚实记录了五次真实翻车与根因，体现了良好的工程判断力（退出码分档、规则纯函数化、配置白名单校验）。主要提升空间在于 AI 使用过程的可追溯性呈现、CI 与跨平台验证的补齐，以及提交颗粒度与目录整洁度。综合评定为优秀。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c5-repo-czlint-zh",
+      "required_total": 4,
+      "required_present": 4,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 49,
+      "files": [
+        {
+          "pattern": "README.md",
+          "label": "README",
+          "required": true,
+          "present": true,
+          "matched_file": "README.md"
+        },
+        {
+          "pattern": "*repo链接*",
+          "label": "repo链接",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C5_repo链接.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C5_AI日志.md"
+        },
+        {
+          "pattern": "*拿来说明*",
+          "label": "拿来说明",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C5_拿来说明.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C5_repo/",
+          "kind": "dir"
+        },
+        {
+          "name": "_smoke/",
+          "kind": "dir"
+        },
+        {
+          "name": "logs/",
+          "kind": "dir"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5_repo链接.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5_项目自评.md",
+          "kind": "file"
+        },
+        {
+          "name": "_patch_test_cli.py",
+          "kind": "file"
+        },
+        {
+          "name": "_sync_doc_counts.py",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C5A",
+      "challenge_id": "ch-20260717031511-x5c6t1",
+      "challenge_title": "C5A GitHub 入门与仓库理解",
+      "submitted_at": "2026-11-18T06:08:56.295Z",
+      "submission_id": "sub-20261118060856-7fc5df86",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 91,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261118061107-0fad2592",
+      "feedback": "这是一份质量较高的交付：Git 原理理解扎实、操作真实可复现、数字由脚本生成而非手写、AAR 有具体洞察与可执行改进方案，AI 使用有返工与纠错记录，整体达到优秀水平。主要短板集中在挑战主题的「GitHub」一侧——缺少真实远端与协作操作，以及样本规模与浅克隆带来的置信度限制；这些不足学生已在 AAR 与自评中如实披露，态度诚实。若补齐远端 PR 闭环与反例样本，可进入更高分段。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c5a-repo-analysis-zh",
+      "required_total": 3,
+      "required_present": 3,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 212,
+      "files": [
+        {
+          "pattern": "*仓库分析*",
+          "label": "仓库分析",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C5A_仓库分析.md"
+        },
+        {
+          "pattern": "README.md",
+          "label": "README",
+          "required": true,
+          "present": true,
+          "matched_file": "README.md"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C5A_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C5A_repo/",
+          "kind": "dir"
+        },
+        {
+          "name": "_analysis/",
+          "kind": "dir"
+        },
+        {
+          "name": "_gitpractice/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C5A_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5A_Git工作流实操记录.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C5A_仓库分析.md",
+          "kind": "file"
+        },
+        {
+          "name": "_audit_deductions.py",
+          "kind": "file"
+        },
+        {
+          "name": "_push_via_api.py",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C6",
+      "challenge_id": "ch-20260717031519-qqqx60",
+      "challenge_title": "C6 Web Application",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C6A",
+      "challenge_id": "ch-20260717031528-w43gy7",
+      "challenge_title": "C6A 提交数据仪表盘",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": 0,
+      "completeness": 0.0,
+      "missing": [
+        "demo",
+        "数据"
+      ],
+      "local_scan": "ok",
+      "local_file_count": 39,
+      "files": [
+        {
+          "pattern": "*仪表盘*",
+          "label": "仪表盘",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C6A_仪表盘.html"
+        },
+        {
+          "pattern": "*demo*",
+          "label": "demo",
+          "required": true,
+          "present": false,
+          "matched_file": null
+        },
+        {
+          "pattern": "*数据*",
+          "label": "数据",
+          "required": true,
+          "present": false,
+          "matched_file": null
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C6A_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C6A_dashboard/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C6A_data/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C6A_screenshots/",
+          "kind": "dir"
+        },
+        {
+          "name": "_tools/",
+          "kind": "dir"
+        },
+        {
+          "name": "raw/",
+          "kind": "dir"
+        },
+        {
+          "name": "挑战ch-20260717031528-w43gy7_正文/",
+          "kind": "dir"
+        },
+        {
+          "name": "README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_report.xlsx",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_仪表盘.html",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_拿来说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_教学说明.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C6A_方案设计.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C7",
+      "challenge_id": "ch-20260717031536-sfz852",
+      "challenge_title": "C7 内容传播",
+      "submitted_at": "2026-11-16T07:48:23.852Z",
+      "submission_id": "sub-20261116074823-208b1a8f",
+      "status": "complete",
+      "task_state": "pending_teacher_review",
+      "score": 78,
+      "evaluator_type": "ai",
+      "evaluation_id": "eval-20261116075040-ef3d3928",
+      "feedback": "这是一份诚实度与复盘深度明显高于平均水平的交付：文章本身结构清晰、选题贴近读者痛点，交付物齐全且可复查，尤其难得的是主动记录了发布事故并坚持数据不编造。主要短板在传播设计——单渠道、无反馈闭环、数据量极小，使「构建个人影响力」的目标在证据上几乎不成立；AI使用记录存在但迭代细节偏薄。整体属于内容与反思扎实、传播执行不足的完成度，建议后续重点补强分发与反馈闭环。",
+      "repo_url": "https://github.com/zhou96754128/cs146s-c7-content-propagation-zh",
+      "required_total": 3,
+      "required_present": 3,
+      "completeness": 1.0,
+      "missing": [],
+      "local_scan": "ok",
+      "local_file_count": 26,
+      "files": [
+        {
+          "pattern": "*文章标题*",
+          "label": "文章标题",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C7_文章标题.md"
+        },
+        {
+          "pattern": "*数据截图*",
+          "label": "数据截图",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C7_数据截图_累计.png"
+        },
+        {
+          "pattern": "*AI日志*",
+          "label": "AI日志",
+          "required": true,
+          "present": true,
+          "matched_file": "Zhouruoying_C7_AI日志.md"
+        }
+      ],
+      "top_entries": [
+        {
+          "name": "Zhouruoying_C7_repo/",
+          "kind": "dir"
+        },
+        {
+          "name": "_tmp_ocr/",
+          "kind": "dir"
+        },
+        {
+          "name": "Zhouruoying_C7_AAR.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C7_AI日志.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C7_README.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C7_数据截图_累计.png",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C7_文章标题.md",
+          "kind": "file"
+        },
+        {
+          "name": "Zhouruoying_C7_项目自评.md",
+          "kind": "file"
+        },
+        {
+          "name": "_截图合规校验.py",
+          "kind": "file"
+        },
+        {
+          "name": "_数据截图采集说明.md",
+          "kind": "file"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C8",
+      "challenge_id": "ch-20260717031544-7vw0rn",
+      "challenge_title": "C8 Real-World Project Execution（真实项目落地）",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C9",
+      "challenge_id": "ch-20260717031553-t2892g",
+      "challenge_title": "C9 Self-Initiated Project（自驱项目）",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 3,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C10",
+      "challenge_id": "ch-20260717031601-4cwlrx",
+      "challenge_title": "C10 Build Your Own Agent（构建你的长期智能体 / 第二大脑）",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    },
+    {
+      "student": {
+        "name": "周若莹",
+        "name_pinyin": "Zhouruoying",
+        "major": "Elite 20 学员",
+        "github": "zhou96754128"
+      },
+      "challenge": "C10H",
+      "challenge_id": "ch-20260717031609-rnur5a",
+      "challenge_title": "C10H 安装并驾驭 Hermes Agent",
+      "submitted_at": null,
+      "submission_id": null,
+      "status": "not_submitted",
+      "task_state": null,
+      "score": null,
+      "evaluator_type": null,
+      "repo_url": null,
+      "required_total": 4,
+      "required_present": null,
+      "completeness": null,
+      "missing": [],
+      "local_scan": "absent",
+      "local_file_count": null,
+      "files": [],
+      "top_entries": [],
+      "notes": "本地无该挑战交付目录：不推断文件是否齐全"
+    }
+  ],
+  "summary": {
+    "generated_at_note": "由 build_dataset.py 现算，无手工填数",
+    "student": {
+      "name": "周若莹",
+      "name_pinyin": "Zhouruoying",
+      "major": "Elite 20 学员",
+      "github": "zhou96754128"
+    },
+    "counts": {
+      "challenges_total": 21,
+      "challenges_submitted": 12,
+      "challenges_unsubmitted": 9,
+      "submission_rate": 0.5714,
+      "local_dirs_scanned": 11,
+      "files_in_submissions": 904,
+      "files_scanned": 8172,
+      "files_listed": 1756,
+      "evaluations_read": 12
+    },
+    "score": {
+      "mean": 88.42,
+      "median": 90.5,
+      "min": 76,
+      "max": 95,
+      "stdev": 6.02,
+      "buckets": {
+        "95+": 1,
+        "90-94": 6,
+        "85-89": 2,
+        "80-84": 1,
+        "<80": 2
+      }
+    },
+    "completeness": {
+      "mean_required_coverage": 1.0,
+      "full_coverage_count": 10,
+      "scanned_with_submission": 10,
+      "spearman_coverage_vs_score": null,
+      "pairs": [
+        {
+          "challenge": "C2A",
+          "coverage": 1.0,
+          "score": 90
+        },
+        {
+          "challenge": "C2G",
+          "coverage": 1.0,
+          "score": 76
+        },
+        {
+          "challenge": "C4",
+          "coverage": 1.0,
+          "score": 91
+        },
+        {
+          "challenge": "C4A",
+          "coverage": 1.0,
+          "score": 92
+        },
+        {
+          "challenge": "C4B",
+          "coverage": 1.0,
+          "score": 84
+        },
+        {
+          "challenge": "C4C",
+          "coverage": 1.0,
+          "score": 95
+        },
+        {
+          "challenge": "C4D",
+          "coverage": 1.0,
+          "score": 94
+        },
+        {
+          "challenge": "C5",
+          "coverage": 1.0,
+          "score": 89
+        },
+        {
+          "challenge": "C5A",
+          "coverage": 1.0,
+          "score": 91
+        },
+        {
+          "challenge": "C7",
+          "coverage": 1.0,
+          "score": 78
+        }
+      ]
+    },
+    "cadence_by_month": {
+      "2026-09": 2,
+      "2026-10": 6,
+      "2026-11": 4
+    },
+    "missing_top": [],
+    "pending": [
+      {
+        "challenge": "?",
+        "title": "T0 发布流程测试（请忽略）"
+      },
+      {
+        "challenge": "C3",
+        "title": "C3 群内高质量参与"
+      },
+      {
+        "challenge": "C3C",
+        "title": "C3C 双人协作与技能迁移"
+      },
+      {
+        "challenge": "C6",
+        "title": "C6 Web Application"
+      },
+      {
+        "challenge": "C6A",
+        "title": "C6A 提交数据仪表盘"
+      },
+      {
+        "challenge": "C8",
+        "title": "C8 Real-World Project Execution（真实项目落地）"
+      },
+      {
+        "challenge": "C9",
+        "title": "C9 Self-Initiated Project（自驱项目）"
+      },
+      {
+        "challenge": "C10",
+        "title": "C10 Build Your Own Agent（构建你的长期智能体 / 第二大脑）"
+      },
+      {
+        "challenge": "C10H",
+        "title": "C10H 安装并驾驭 Hermes Agent"
+      }
+    ],
+    "data_sources": [
+      "平台 list-my-submissions（12 条真实提交记录）",
+      "平台 list-challenges（21 个真实挑战定义与必交物 pattern）",
+      "平台 get-evaluation（12 份真实 AI 初评，全部 evaluator_type=ai）",
+      "本地工作区 C*/ 目录真实文件树（递归扫描，跳过 .git/缓存）"
+    ],
+    "honesty_boundary": "仪表盘仅含单个真实账号（Zhouruoying）的数据。我无权限读取其他同学的提交，因此不虚构同学数据；多学生能力由 tests/ 下的 fixtures 单测覆盖，fixture 数据永不进入 data/ 与站点。"
+  }
+}

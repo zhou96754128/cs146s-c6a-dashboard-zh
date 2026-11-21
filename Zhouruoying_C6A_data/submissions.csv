@@ -1,0 +1,22 @@
+﻿student_name,challenge,challenge_title,submitted_at,submission_id,status,score,evaluator_type,required_present,required_total,completeness,missing,local_scan,local_file_count,repo_url
+周若莹,?,T0 发布流程测试（请忽略）,,,not_submitted,,,,1,,,absent,,
+周若莹,C1,C1 课程资料获取与翻译,2026-09-16T01:39:15.357Z,sub-20260916013915-dac2bdfd,unknown,92,ai,,4,,,absent,,https://github.com/zhou96754128/cs146s-vibe-coding-zh
+周若莹,C2,C2 AI for Math 论文,2026-09-24T06:05:07.486Z,sub-20260924060507-70b3d083,unknown,89,ai,,4,,,absent,,https://github.com/zhou96754128/cs146s-ai4math-paper-zh
+周若莹,C2A,C2A / C9：衡量 AGI 的认知能力,2026-10-05T06:48:14.496Z,sub-20261005064814-c9c956a5,complete,90,ai,4,4,1.0,,ok,65,https://github.com/zhou96754128/cs146s-c2a-metacognition-zh
+周若莹,C2G,C2G 参数高尔夫 —— 极限约束下的语言模型训练,2026-10-05T12:59:44.185Z,sub-20261005125944-331990e1,complete,76,ai,4,4,1.0,,ok,48,https://github.com/zhou96754128/cs146s-c2g-parameter-golf-zh
+周若莹,C3,C3 群内高质量参与,,,not_submitted,,,,3,,,absent,,
+周若莹,C3C,C3C 双人协作与技能迁移,,,not_submitted,,,,4,,,absent,,
+周若莹,C4,C4 技能分享与传播,2026-10-05T14:24:26.675Z,sub-20261005142426-4ce20985,complete,91,ai,5,5,1.0,,ok,20,https://github.com/zhou96754128/cs146s-c4-submit-preflight-zh
+周若莹,C4A,C4A 技能提交自动评审,2026-10-07T08:21:32.706Z,sub-20261007082132-9dbdce65,complete,92,ai,4,4,1.0,,ok,77,https://github.com/zhou96754128/cs146s-c4a-skill-evaluator-zh
+周若莹,C4B,C4B 公众号文章生成技能,2026-10-05T16:50:09.306Z,sub-20261005165009-1e9032ee,complete,84,ai,3,3,1.0,,ok,31,https://github.com/zhou96754128/cs146s-c4b-wechat-publisher-zh
+周若莹,C4C,C4C 作业自动求解与排版,2026-10-08T08:42:32.166Z,sub-20261008084232-4a7efd77,complete,95,ai,4,4,1.0,,ok,193,https://github.com/zhou96754128/cs146s-c4c-homework-solver-zh
+周若莹,C4D,C4D 本地大模型 Agent 技能,2026-11-01T08:59:45.465Z,sub-20261101085945-16be24f2,complete,94,ai,4,4,1.0,,ok,144,https://github.com/zhou96754128/cs146s-c4d-map-agent-zh
+周若莹,C5,C5 GitHub Repository,2026-11-21T09:23:27.786Z,sub-20261121092327-7d629499,complete,89,ai,4,4,1.0,,ok,49,https://github.com/zhou96754128/cs146s-c5-repo-czlint-zh
+周若莹,C5A,C5A GitHub 入门与仓库理解,2026-11-18T06:08:56.295Z,sub-20261118060856-7fc5df86,complete,91,ai,3,3,1.0,,ok,212,https://github.com/zhou96754128/cs146s-c5a-repo-analysis-zh
+周若莹,C6,C6 Web Application,,,not_submitted,,,,4,,,absent,,
+周若莹,C6A,C6A 提交数据仪表盘,,,not_submitted,,,0,4,0.0,demo;数据,ok,39,
+周若莹,C7,C7 内容传播,2026-11-16T07:48:23.852Z,sub-20261116074823-208b1a8f,complete,78,ai,3,3,1.0,,ok,26,https://github.com/zhou96754128/cs146s-c7-content-propagation-zh
+周若莹,C8,C8 Real-World Project Execution（真实项目落地）,,,not_submitted,,,,4,,,absent,,
+周若莹,C9,C9 Self-Initiated Project（自驱项目）,,,not_submitted,,,,3,,,absent,,
+周若莹,C10,C10 Build Your Own Agent（构建你的长期智能体 / 第二大脑）,,,not_submitted,,,,4,,,absent,,
+周若莹,C10H,C10H 安装并驾驭 Hermes Agent,,,not_submitted,,,,4,,,absent,,

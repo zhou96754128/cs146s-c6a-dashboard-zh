@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C6A 提交数据仪表盘 · 周若莹 Elite 20</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>C6A 提交数据仪表盘</h1>
+      <div class="sub">周若莹（2025105400318）· Elite 20 · GitHub @zhou96754128</div>
+    </div>
+    <div class="right">
+      数据时间 <b id="genAt">—</b><br>
+      零依赖静态页 · 离线可开
+    </div>
+  </header>
+
+  <div class="scope">
+    <span class="tag">口径</span>
+    <div>
+      <b>全部数字由脚本现算，不手工填表。</b>数据源：平台 <code>list-my-submissions</code> / <code>list-challenges</code> / <code>get-evaluation</code>，加本地工作区 <code>C*/</code> 目录的真实文件扫描（<code>_tools/fetch_platform.py</code> → <code>build_dataset.py</code> → <code>file_index.py</code>）。
+      视角是<b>单学员</b>：只含本人提交与本人工作区，<b>不含同班其他学员数据</b>；没有本地目录的已提交挑战标为「本地无目录」，不推断其内容。
+    </div>
+  </div>
+
+  <nav class="tabs" id="tabs"></nav>
+  <div class="toolbar" id="toolbar"></div>
+  <div id="view"></div>
+
+  <div class="card">
+    <h2>本地文件链接</h2>
+    <p class="hint">填工作区根目录后，文件名可点开（浏览器 <code>file://</code> 直链，仅本机有效）。留空则只显示相对路径。</p>
+    <div class="settings">
+      <span>工作区根目录</span>
+      <input id="wsRoot" type="text" placeholder="/Users/you/userWorkSpace/检查挑战清单完成情况" spellcheck="false">
+      <span>改动只存本地浏览器，不上传。</span>
+    </div>
+  </div>
+
+  <footer class="foot">
+    C6A 提交数据仪表盘 · 由 <code>_tools/build_site.py</code> 从 <code>data/*.json</code> 生成，单文件版见仓库根 <code>Zhouruoying_C6A_仪表盘.html</code>。
+    数据可复现：重跑 <code>python3 _tools/run_all.py</code> 即得到同一组字节（除时间戳字段）。
+  </footer>
+</div>
+
+<div class="drawer" id="drawer"><div class="sheet" id="drawerBody"></div></div>
+
+<script src="data.js"></script>
+<script src="app.core.js"></script>
+<script src="app.views.js"></script>
+<script src="app.extra.js"></script>
+</body>
+</html>

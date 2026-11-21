@@ -1,0 +1,143 @@
+{
+  "generated_at_note": "由 build_dataset.py 现算，无手工填数",
+  "student": {
+    "name": "周若莹",
+    "name_pinyin": "Zhouruoying",
+    "major": "Elite 20 学员",
+    "github": "zhou96754128"
+  },
+  "counts": {
+    "challenges_total": 21,
+    "challenges_submitted": 12,
+    "challenges_unsubmitted": 9,
+    "submission_rate": 0.5714,
+    "local_dirs_scanned": 11,
+    "files_in_submissions": 904,
+    "files_scanned": 8172,
+    "files_listed": 1756,
+    "evaluations_read": 12
+  },
+  "score": {
+    "mean": 88.42,
+    "median": 90.5,
+    "min": 76,
+    "max": 95,
+    "stdev": 6.02,
+    "buckets": {
+      "95+": 1,
+      "90-94": 6,
+      "85-89": 2,
+      "80-84": 1,
+      "<80": 2
+    }
+  },
+  "completeness": {
+    "mean_required_coverage": 1.0,
+    "full_coverage_count": 10,
+    "scanned_with_submission": 10,
+    "spearman_coverage_vs_score": null,
+    "pairs": [
+      {
+        "challenge": "C2A",
+        "coverage": 1.0,
+        "score": 90
+      },
+      {
+        "challenge": "C2G",
+        "coverage": 1.0,
+        "score": 76
+      },
+      {
+        "challenge": "C4",
+        "coverage": 1.0,
+        "score": 91
+      },
+      {
+        "challenge": "C4A",
+        "coverage": 1.0,
+        "score": 92
+      },
+      {
+        "challenge": "C4B",
+        "coverage": 1.0,
+        "score": 84
+      },
+      {
+        "challenge": "C4C",
+        "coverage": 1.0,
+        "score": 95
+      },
+      {
+        "challenge": "C4D",
+        "coverage": 1.0,
+        "score": 94
+      },
+      {
+        "challenge": "C5",
+        "coverage": 1.0,
+        "score": 89
+      },
+      {
+        "challenge": "C5A",
+        "coverage": 1.0,
+        "score": 91
+      },
+      {
+        "challenge": "C7",
+        "coverage": 1.0,
+        "score": 78
+      }
+    ]
+  },
+  "cadence_by_month": {
+    "2026-09": 2,
+    "2026-10": 6,
+    "2026-11": 4
+  },
+  "missing_top": [],
+  "pending": [
+    {
+      "challenge": "?",
+      "title": "T0 发布流程测试（请忽略）"
+    },
+    {
+      "challenge": "C3",
+      "title": "C3 群内高质量参与"
+    },
+    {
+      "challenge": "C3C",
+      "title": "C3C 双人协作与技能迁移"
+    },
+    {
+      "challenge": "C6",
+      "title": "C6 Web Application"
+    },
+    {
+      "challenge": "C6A",
+      "title": "C6A 提交数据仪表盘"
+    },
+    {
+      "challenge": "C8",
+      "title": "C8 Real-World Project Execution（真实项目落地）"
+    },
+    {
+      "challenge": "C9",
+      "title": "C9 Self-Initiated Project（自驱项目）"
+    },
+    {
+      "challenge": "C10",
+      "title": "C10 Build Your Own Agent（构建你的长期智能体 / 第二大脑）"
+    },
+    {
+      "challenge": "C10H",
+      "title": "C10H 安装并驾驭 Hermes Agent"
+    }
+  ],
+  "data_sources": [
+    "平台 list-my-submissions（12 条真实提交记录）",
+    "平台 list-challenges（21 个真实挑战定义与必交物 pattern）",
+    "平台 get-evaluation（12 份真实 AI 初评，全部 evaluator_type=ai）",
+    "本地工作区 C*/ 目录真实文件树（递归扫描，跳过 .git/缓存）"
+  ],
+  "honesty_boundary": "仪表盘仅含单个真实账号（Zhouruoying）的数据。我无权限读取其他同学的提交，因此不虚构同学数据；多学生能力由 tests/ 下的 fixtures 单测覆盖，fixture 数据永不进入 data/ 与站点。"
+}

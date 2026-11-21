@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "command": "get-dashboard",
+  "role": "student",
+  "stats": {
+    "studentCount": 1,
+    "challengeCount": 21,
+    "submissionCount": 12,
+    "completedCount": 0,
+    "pendingReviewCount": 12
+  }
+}

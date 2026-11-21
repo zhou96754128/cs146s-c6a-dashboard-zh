@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "challenge_id": "C6A",
+  "dimensions": [
+    {
+      "id": "dataInsight",
+      "label": "数据洞察",
+      "description": "从数据中提炼洞察的能力（分析/仪表盘类）",
+      "signals": [
+        "洞察有据",
+        "口径清晰",
+        "有结论"
+      ],
+      "negativeSignals": [
+        "堆砌图表",
+        "无结论"
+      ],
+      "maxPoints": 25
+    },
+    {
+      "id": "visualization",
+      "label": "可视化",
+      "description": "图表/看板的信息传达质量",
+      "signals": [
+        "图表恰当",
+        "可读性强",
+        "交互可用"
+      ],
+      "negativeSignals": [
+        "图表误导",
+        "杂乱"
+      ],
+      "maxPoints": 20
+    },
+    {
+      "id": "artifactCompleteness",
+      "label": "产物完整性",
+      "description": "交付物是否齐全、可运行、可独立使用",
+      "signals": [
+        "README齐全",
+        "可运行",
+        "安装/使用说明"
+      ],
+      "negativeSignals": [
+        "文件为空",
+        "缺少核心交付物"
+      ],
+      "maxPoints": 15
+    },
+    {
+      "id": "aiUsage",
+      "label": "AI使用质量",
+      "description": "AI 工具使用是否恰当、有效、可追溯",
+      "signals": [
+        "多轮迭代",
+        "prompt优化",
+        "工作流设计",
+        "AI日志佐证"
+      ],
+      "negativeSignals": [
+        "一句话指令直接提交",
+        "没有AI使用记录"
+      ],
+      "maxPoints": 20
+    },
+    {
+      "id": "reflectionQuality",
+      "label": "复盘质量",
+      "description": "AAR 反思是否深入、有洞察、有改进方案",
+      "signals": [
+        "具体问题分析",
+        "有改进方案",
+        "记录迭代过程",
+        "含失败经验"
+      ],
+      "negativeSignals": [
+        "敷衍了事",
+        "没有实际反思"
+      ],
+      "maxPoints": 20
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "missing_artifacts",
+      "description": "核心交付物缺失",
+      "affectedDimension": "artifactCompleteness",
+      "maxScore": 5
+    },
+    {
+      "id": "no_ai_log",
+      "description": "无 AI 使用记录/AAR",
+      "affectedDimension": "reflectionQuality",
+      "maxScore": 5
+    },
+    {
+      "id": "one_shot_ai",
+      "description": "一句话指令直接提交、无迭代",
+      "affectedDimension": "aiUsage",
+      "maxScore": 5
+    }
+  ]
+}

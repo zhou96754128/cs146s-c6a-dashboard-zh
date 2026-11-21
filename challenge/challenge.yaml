@@ -1,0 +1,14 @@
+# C6A 结构化课程定义（由 freeze-course-content.mjs 生成，v1.0 冻结）
+id: C6A
+title: "提交数据仪表盘（Submission Dashboard Builder）"
+difficulty: 
+brief: "做一个提交数据仪表盘，从数据中提炼洞察并用可视化讲清楚。"
+objective:
+  - "明确口径与权威数据源"
+  - "产出传达力强的可视化"
+  - "从数据中提炼有据洞察"
+  - "复盘数据口径选择的坑"
+deliverables_pattern: "*仪表盘*,*demo*,*数据*,*AI日志*"
+deadline: 2026-12-31T23:59
+platform_challenge_id: ch-20260717031528-w43gy7
+source_md: CHALLENGE.md
